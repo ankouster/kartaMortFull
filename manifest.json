@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Player",
+  "version": "1.0",
+  "description": "Watch YouTube videos in HD.",
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
